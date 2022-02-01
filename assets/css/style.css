@@ -2,10 +2,30 @@
 
 body{
     margin: 0;
+    font-family: "Quicksand", sans-serif;
 }
 
 a{
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    margin: 0 20px;
 }
 
 #logo a{
@@ -16,3 +36,7 @@ a{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     padding: 10px;
 }
+
+
+
+
