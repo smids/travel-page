@@ -17,7 +17,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header ul{
@@ -28,6 +31,20 @@ header li{
     margin: 0 20px;
 }
 
+header nav a{
+    color: rgb(255, 250, 0);
+    padding: 12px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+header nav a:hover{
+    background-color: rgb(255, 251, 0);
+    border-radius: 4px;
+    color: black;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
 #logo a{
     font-family: "Oleo Script", sans-serif;
     font-size: 50px;
@@ -36,6 +53,7 @@ header li{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     padding: 10px;
 }
+
 
 
 
