@@ -1,0 +1,6 @@
+#hero{
+    height: 800px;
+    background-image: url("/assets/img/ocean.jpg");
+    background-position:center;
+    background-size: cover ;
+}
