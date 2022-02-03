@@ -63,6 +63,11 @@ header nav a:hover{
     justify-content: center;
 }
 
+#highlight{
+    padding: 16px;
+    background:linear-gradient(0deg, rgb(227,255,253), rgb(202,243,240));
+}
+
 #highlight h2{
     text-align: center;
     text-transform: uppercase;
