@@ -62,8 +62,16 @@ header nav a:hover{
     padding: 0;
 }
 
+#highlight h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
+
 .destination img{
-    height: 80%;
+    height: 70%;
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
@@ -73,6 +81,15 @@ header nav a:hover{
 .destination{
     margin: 0 20px;
 }
+
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px;
+}
+
+
 
 
 
