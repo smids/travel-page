@@ -54,6 +54,27 @@ header nav a:hover{
     padding: 10px;
 }
 
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.destination img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(67, 67, 67);
+}
+
+.destination{
+    margin: 0 20px;
+}
+
+
 
 
 
